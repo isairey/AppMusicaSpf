@@ -1,195 +1,404 @@
-![Hivefy Banner](./assets/docs/fullbanner.png)
+<div align="center">
 
-<h1 align="center">Hivefy 🎧</h1>
+<img width="160" src="./assets/docs/fullbanner.png" />
 
-<p align="center">
+# 🎧 Hivefy
 
-  <!-- 🔹 GitHub Downloads -->
-  <a href="https://github.com/Harish-Srinivas-07/hivefy/releases/latest">
-    <img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Harish-Srinivas-07/hivefy/total?label=Downloads(Git)">
-  </a>
-
-  <!-- 🔹 SourceForge Downloads -->
-  <a href="https://sourceforge.net/projects/hivefy/files/">
-    <img alt="SourceForge Downloads" src="https://img.shields.io/sourceforge/dt/hivefy?label=Downloads(SF)">
-  </a>
-
-  <!-- 🔹 GitHub Latest Release -->
-  <a href="https://github.com/Harish-Srinivas-07/hivefy/releases/latest">
-    <img alt="GitHub Release" src="https://img.shields.io/github/v/release/Harish-Srinivas-07/hivefy">
-  </a>
-  <!-- 🔹 Built With / Platform / Open Source -->
-  <img alt="Flutter" src="https://img.shields.io/badge/Built%20With-Flutter-02569B">
-  <img alt="Android" src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white">
-  <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen">
-  
-</p>
-
-**Hivefy** is a **FOSS, Spotify inpired, ad-free, and offline-ready music app** built with **Flutter** using the **unofficial JioSaavn API**.  
-Explore trending charts, albums, playlists, and multi-language content — all **open-source, privacy-respecting, and fully customizable**. 🎵
-
-<a href="https://github.com/Harish-Srinivas-07/hivefy/releases/latest">
-  <img alt="OSS Rising Star Badge for Hivefy" src="https://b.sf-syn.com/badge_img/3922596/oss-rising-star-black" width="170">
-</a>
-
-<h3>Download for Android 😍</h3>
-
-<!-- GitHub button -->
-<p>
-  <a href="https://github.com/Harish-Srinivas-07/hivefy/releases" target="_blank">
-    <img alt="Github build" src="https://raw.githubusercontent.com/NeoApplications/Neo-Backup/034b226cea5c1b30eb4f6a6f313e4dadcbb0ece4/badge_github.png" height="60" style="vertical-align: middle;" />
-  </a>
-</p>
-
-<!-- SourceForge button -->
-<p>
-  <a href="https://sourceforge.net/projects/hivefy/" target="_blank">
-    <img alt="Download Hivefy" src="https://a.fsdn.com/con/app/sf-download-button" height="40" style="vertical-align: middle;" />
-  </a>
-</p>
-
-
-> ⚠️ Make sure “Install from unknown sources” is enabled in your device settings to install Hivefy.
-
-## ✨ Features
-
-### 🎨 Modern Experience
-
-- Spotify-inspired **UI & animations**
-- Dynamic **Material You theming**
-- Adaptive icons and typography using **SpotifyMix**
-
-### 🎧 Powerful Player
-
-- Background playback via `audio_service`
-- Swipe gestures & visual seek controls
-- **Animated miniplayer → full player transition**
-
-### 💾 Offline-First
-
-- Download and store music locally (albums / playlists / songs)
-- Automatic cleanup for invalid files
-- Background download notifications
-
-### 🔍 Smart Search & Library
-
-- Unified global search (songs, albums, artists, playlists)
-- Persistent library powered by **Hive DB**
-- Works perfectly **without Internet**
-
-### ⚙️ Settings & Customization
-
-- Server selector (Main / Backup / Mirror)
-- Cache management & download monitor
-- Toggle theme, clear storage, and more
-
-## 🖼️ Screenshots
+### Plataforma musical moderna inspirada en Spotify 🚀
 
 <p align="center">
-  <img src="./assets/docs/pic1.png" width="230" />
-  <img src="./assets/docs/pic2.png" width="230" />
-  <img src="./assets/docs/pic3.png" width="230" />
+  Hivefy es una aplicación musical <b>FOSS</b>, moderna y libre de anuncios desarrollada con <b>Flutter</b>, diseñada para streaming online y reproducción offline con una experiencia premium inspirada en Spotify.
 </p>
+
 <p align="center">
-  <img src="./assets/docs/pic4.png" width="230" />
-  <img src="./assets/docs/pic5.png" width="230" />
+  <img src="https://img.shields.io/badge/Flutter-3.7-blue?style=for-the-badge&logo=flutter">
+  <img src="https://img.shields.io/badge/Android-Supported-success?style=for-the-badge&logo=android">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/isairey/Hivefy?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/isairey/Hivefy?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/isairey/Hivefy?style=for-the-badge">
 </p>
 
-## 🧠 Upcoming Features
+<p align="center">
+  <a href="#-preview">Preview</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-- [ ] 🎼 Lyrics sync & overlay
-- [ ] 🧠 AI-based recommendations
-- [ ] ☁️ Cloud profile sync
-- [ ] 🖥️ Windows app support
-- [ ] 🍏 iOS app support
-- [ ] 🤝 Playlist sharing & collaboration
-
----
-## 🌐 Hivefy Web (New 🚀)
-
-Hivefy is now available on the **web**!
-
-👉 **Live Demo:** https://hivefyweb.vercel.app
-👉 **Open Source Repo:** https://github.com/Harish-Srinivas-07/hivefyweb
-
-Built with **Next.js**, Hivefy Web brings a fast, responsive, and install-free music experience directly to your browser.
-
-### ✨ Highlights
-
-* 🎨 Spotify-inspired UI
-* ⚡ Lightweight & responsive
-* 🔍 Global search
-* 💾 Offline-first caching
-* 🎧 PiP & Media Session support
-* 🌍 Multi-language support
-
-> No install needed — open and start listening.
+</div>
 
 ---
 
+# 🌊 Acerca de Hivefy
 
-## 🚀 Getting Started
+**Hivefy** es una aplicación de streaming musical multiplataforma enfocada en ofrecer una experiencia rápida, elegante y completamente libre de anuncios.
 
-### Prerequisites
+Inspirada visualmente en Spotify, la aplicación combina una interfaz moderna con funcionalidades avanzadas como reproducción offline, descargas locales, caché inteligente y sincronización multimedia.
 
-- Flutter SDK **(>=3.7.2)**
-- Android Studio / VS Code setup for Flutter
-- Java JDK **17+** (for app signing)
-- Device / emulator running **Android 7.0+**
+El proyecto fue desarrollado utilizando **Flutter** y múltiples tecnologías modernas para ofrecer rendimiento optimizado, animaciones fluidas y una arquitectura escalable.
 
-### Setup & Run
+---
+
+# 📸 Preview
+
+<div align="center">
+
+<img src="./assets/docs/fullbanner.png" width="1000"/>
+
+</div>
+
+---
+
+# 📱 Capturas de Pantalla
+
+<div align="center">
+
+<img src="./assets/docs/pic1.png" width="220"/>
+<img src="./assets/docs/pic2.png" width="220"/>
+<img src="./assets/docs/pic3.png" width="220"/>
+<img src="./assets/docs/pic4.png" width="220"/>
+<img src="./assets/docs/pic5.png" width="220"/>
+
+</div>
+
+---
+
+# ✨ Características
+
+# 🎨 Experiencia Moderna
+
+- 🎵 UI inspirada en Spotify
+- ✨ Animaciones fluidas
+- 🎨 Material You Dynamic Theme
+- 📱 Diseño responsive
+- 🌙 Dark Mode
+- 🔥 Tipografía personalizada SpotifyMix
+
+---
+
+# 🎧 Reproductor Multimedia
+
+- ▶️ Reproducción en segundo plano
+- ⏯️ Play / Pause
+- ⏭️ Next / Previous
+- 📍 Seek visual interactivo
+- 🎚️ Controles multimedia avanzados
+- 🔔 Notificaciones multimedia
+- 🎶 Miniplayer animado
+
+---
+
+# 💾 Offline First
+
+- ☁️ Descarga de canciones
+- 📂 Almacenamiento local
+- 🎵 Descarga de playlists y álbumes
+- 🧹 Limpieza automática de archivos inválidos
+- ⚡ Caché inteligente
+
+---
+
+# 🔍 Biblioteca Inteligente
+
+- 🌐 Búsqueda global
+- 🎤 Artistas
+- 💿 Álbumes
+- 📜 Playlists
+- 🎶 Canciones
+- 💾 Biblioteca persistente con Hive DB
+
+---
+
+# ⚙️ Configuración Avanzada
+
+- 🌍 Selector de servidores
+- 💾 Gestión de caché
+- 🎨 Cambio de tema
+- 📡 Monitor de descargas
+- 🔧 Configuración avanzada de reproducción
+
+---
+
+# 🌐 Hivefy Web
+
+## 🚀 Disponible también en navegador
+
+Hivefy cuenta con una versión web rápida y responsiva desarrollada con tecnologías modernas.
+
+### ✨ Características Web
+
+- 🎨 UI inspirada en Spotify
+- ⚡ Experiencia ligera
+- 🔍 Búsqueda global
+- 💾 Caché offline
+- 🎧 Media Session API
+- 🌍 Multi-language support
+
+---
+
+# 🎥 Demo
+
+<div align="center">
+
+https://user-images.githubusercontent.com/demo/hivefy-demo.mp4
+
+</div>
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+## 📱 Desarrollo Mobile
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,vscode" />
+</p>
+
+- Flutter
+- Dart
+- Android Studio
+- VS Code
+
+---
+
+## 🎵 Audio & Streaming
+
+- just_audio
+- audio_service
+- just_audio_background
+- Media Session API
+
+---
+
+## 💾 Almacenamiento
+
+- Hive DB
+- Shared Preferences
+- Path Provider
+- Local Cache System
+
+---
+
+## 🌐 Networking
+
+- Dio
+- HTTP
+- HTML Unescape
+
+---
+
+## 🎨 UI & UX
+
+- Material You
+- Shimmer Effects
+- Cached Network Image
+- Animated Mini Player
+- Responsive Layouts
+
+---
+
+## ⚙️ Arquitectura
+
+- Flutter Riverpod
+- State Management
+- Modular Services
+- Clean Architecture
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,firebase,nextjs" />
+</p>
+
+- Git & GitHub
+- Firebase
+- Next.js
+- SourceForge
+
+---
+
+# 📂 Estructura del Proyecto
 
 ```bash
-git clone https://github.com/Harish-Srinivas-07/hivefy.git
-cd hivefy
+Hivefy/
+│
+├── assets/             # Recursos gráficos y multimedia
+├── lib/
+│   ├── services/       # APIs y lógica backend
+│   ├── views/          # Pantallas y UI
+│   ├── models/         # Modelos de datos
+│   ├── providers/      # State management
+│   ├── widgets/        # Componentes reutilizables
+│   └── utils/          # Utilidades
+│
+├── android/            # Configuración Android
+├── ios/                # Configuración iOS
+├── web/                # Soporte Web
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/isairey/Hivefy.git
+cd Hivefy
+```
+
+---
+
+# 🔥 Requisitos
+
+- Flutter SDK 3.7+
+- Android Studio o VS Code
+- JDK 17+
+- Android 7.0+
+- Dispositivo físico o emulador
+
+---
+
+# ▶️ Ejecutar Proyecto
+
+## Instalar dependencias
+
+```bash
+flutter pub get
+```
+
+---
+
+## Ejecutar aplicación
+
+```bash
+flutter run
+```
+
+---
+
+# 🚀 Funcionalidades Completadas
+
+## ✅ Finalizado
+
+- 🎵 Streaming online
+- 💾 Descargas offline
+- 🎧 Background playback
+- 🌙 Dark Mode
+- 🔔 Notificaciones multimedia
+- 🔍 Búsqueda global
+- 📂 Biblioteca persistente
+- 🎨 Material You
+
+---
+
+# 📊 Roadmap
+
+## 🚧 Próximamente
+
+- 🎼 Letras sincronizadas
+- 🤖 Recomendaciones con IA
+- ☁️ Sincronización cloud
+- 🍏 Aplicación iOS
+- 🖥️ Soporte Windows
+- 🤝 Compartir playlists
+- 👥 Colaboración musical
+- 📱 Widgets multimedia
+
+---
+
+# 💡 Notas para Desarrolladores
+
+- ⚡ Builds optimizados con ProGuard
+- 🔧 Arquitectura modular y escalable
+- 📦 Backend configurable desde `services/`
+- 🎨 UI personalizable desde `views/`
+- 🧩 Modelos compatibles con JSON serialization
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Pasos para contribuir
+
+1. Haz Fork del proyecto
+2. Crea una rama
+
+```bash
+git checkout -b feature/nueva-funcion
+```
+
+3. Realiza tus cambios
+4. Ejecuta la app
+
+```bash
 flutter pub get
 flutter run
 ```
 
-## 🧩 Tech Stack
+5. Haz commit
 
-| Category    | Packages                                                                           |
-| ----------- | ---------------------------------------------------------------------------------- |
-| **State**   | `flutter_riverpod`                                                                 |
-| **Audio**   | `just_audio`, `audio_service`, `just_audio_background`                             |
-| **Storage** | `hive`, `shared_preferences`, `path_provider`                                      |
-| **UI/UX**   | `shimmer`, `cached_network_image`, `figma_squircle`, `flashy_tab_bar2`, `readmore` |
-| **Network** | `dio`, `http`, `html_unescape`                                                     |
-| **System**  | `flutter_local_notifications`, `disk_space_plus`, `package_info_plus`              |
-| **Utils**   | `toastification`, `permission_handler`, `internet_connection_checker_plus`         |
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
 
-## 💡 Developer Notes
+6. Haz push
 
-- **Debug builds** use the `DebugServer` endpoint (no signing required)
-- **Release builds** are automatically optimized with ProGuard
-- All data models include `toJson` and `fromJson` with unescape normalization
-- You can modify backend logic under `services/` and UI flows under `views/`
+```bash
+git push origin feature/nueva-funcion
+```
+
+7. Abre un Pull Request 🚀
 
 ---
 
-## ❤️ Contributing
+# ⚠️ Disclaimer
 
-We welcome PRs and ideas from everyone.
-If you’d like to add a feature or fix a bug:
+> Hivefy utiliza APIs no oficiales únicamente con fines educativos y de investigación.
+> La aplicación no aloja contenido protegido por derechos de autor.
+> Todos los derechos pertenecen a sus respectivos propietarios.
 
-```bash
-# Fork & branch
-git checkout -b feature/my-awesome-feature
+---
 
-# Make changes
-flutter pub get
-flutter run
-```
+# 👨‍💻 Autor
 
-Then open a Pull Request — we’ll review it together 🎵
+<div align="center">
 
-## ⚠️ Disclaimer
+<img src="https://github.com/isairey.png" width="120" style="border-radius:50%" />
 
-> Hivefy uses the **unofficial JioSaavn API** solely for educational and research purposes.
-> The app **does not host or distribute** any copyrighted media.
-> All rights belong to their respective owners.
+## Isai Reyes
 
-## ⭐ Star the Repo
+Desarrollador Full Stack apasionado por aplicaciones multimedia, UI modernas y tecnologías open source.
 
-If Hivefy inspired you, show your support by starring ⭐ it on GitHub!
-Let’s build the next generation of open music apps — **for everyone, ad-free**.
+</div>
+
+---
+
+# 🌟 Apoya el Proyecto
+
+Si te gusta Hivefy:
+
+⭐ Dale una estrella al repositorio  
+🍴 Haz Fork del proyecto  
+📢 Compártelo con otros desarrolladores
+
+---
+
+# 📜 Licencia
+
+Este proyecto está bajo la licencia **MIT**.
+
+---
+
+<div align="center">
+
+### 🎶 Hivefy — Streaming musical moderno, libre y sin anuncios.
+
+</div>
