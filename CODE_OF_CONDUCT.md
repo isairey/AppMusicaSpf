@@ -93,7 +93,7 @@ Este Código de Conducta aplica en:
 
 Los casos de comportamiento abusivo, ofensivo o inapropiado pueden reportarse directamente al equipo del proyecto:
 
-📧 **Contacto:** `sr.harishsrinivas@gmail.com`
+📧 **Contacto:** `isaireyes2003@gmail.com`
 
 Todas las denuncias serán revisadas de manera:
 
