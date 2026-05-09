@@ -14,9 +14,9 @@
   <img src="https://img.shields.io/badge/Flutter-3.7-blue?style=for-the-badge&logo=flutter">
   <img src="https://img.shields.io/badge/Android-Supported-success?style=for-the-badge&logo=android">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/isairey/Hivefy?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/isairey/Hivefy?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/isairey/Hivefy?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/isairey/AppMusicaSpf?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/isairey/AppMusicaSpf?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/isairey/AppMusicaSpf?style=for-the-badge">
 </p>
 
 <p align="center">
