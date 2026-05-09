@@ -142,7 +142,9 @@ Hivefy cuenta con una versión web rápida y responsiva desarrollada con tecnolo
 
 <div align="center">
 
-https://user-images.githubusercontent.com/demo/hivefy-demo.mp4
+<a href="https://github.com/Harish-Srinivas-07/hivefy/releases/latest">
+  <img alt="OSS Rising Star Badge for Hivefy" src="https://b.sf-syn.com/badge_img/3922596/oss-rising-star-black" width="170">
+</a>
 
 </div>
 
