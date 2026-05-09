@@ -2,7 +2,7 @@
 
 <img width="160" src="./assets/docs/fullbanner.png" />
 
-# 🎧 Hivefy
+# 🎧 AppMusicaSpf Hivefy
 
 ### Plataforma musical moderna inspirada en Spotify 🚀
 
@@ -248,8 +248,8 @@ Hivefy/
 ## 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/isairey/Hivefy.git
-cd Hivefy
+git clone https://github.com/isairey/AppMusicaSpf.git
+cd AppMusicaSpf
 ```
 
 ---
